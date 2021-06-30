@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style_calculator.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="display_box">
+            <div id="display2" name="display2">
+                
+            </div>
+            <div id="display1" name="display1">
+                
+            </div>
+        </div>
+        <table align="center">
+            <tr>
+                <td>
+                    <div role="button" class="reset"  id="button_c">
+                        <span>C</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="backspace" id="button_backs">
+                        <span><i class="fas fa-backspace"></i></span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="ops" data-ops="%" id="button_%">
+                        <span>%</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="ops" data-ops="/" id="button_/"> 
+                        <span><i class="fas fa-divide"></i></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div role="button" class="num" data-num="7" id="button_7">
+                        <span>7</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="8" id="button_8">
+                        <span>8</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="9" id="button_9">
+                        <span>9</span>
+                    </div role="button">
+                </td>
+                <td>
+                    <div role="button" class="ops" data-ops="*" id="button_x">
+                        <span>x</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div role="button" class="num" data-num="4" id="button_4">
+                        <span>4</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="5" id="button_5">
+                        <span>5</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="6" id="button_6">
+                        <span>6</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="ops" data-ops="-" id="button_-">
+                        <span>-</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div role="button" class="num" data-num="1" id="button_1">
+                        <span>1</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="2" id="button_2">
+                        <span>2</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="3" id="button_3">
+                        <span>3</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="ops" data-ops="+" id="button_+">
+                        <span>+</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div role="button" class="num" data-num="0" id="button_0">
+                        <span>0</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="00" id="button_00">
+                        <span>00</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="num" data-num="." id="button_.">
+                        <span>.</span>
+                    </div>
+                </td>
+                <td>
+                    <div role="button" class="equals" data-result="" id="button_=">
+                        <span>=</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="logic_calculator.js"></script>
+</body>
+</html>
