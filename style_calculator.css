@@ -5,14 +5,13 @@
 }
 
 #container{
-    position: absolute;
+    margin:auto;
     width: 480px;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: aqua;
-    top:20%;
-    left:35%;
+    
 }
 
 #display_box{
